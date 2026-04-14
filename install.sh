@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Claude Starter Pack Installer
-# Install: git clone https://github.com/YOUR_USER/claude-starter-pack.git && cd claude-starter-pack && ./install.sh
+# Install: git clone https://github.com/jincinga24-hue/claude-starter-pack.git && cd claude-starter-pack && ./install.sh
 # Safe to re-run — skips anything already installed.
 
 SKILLS_DIR="$HOME/.claude/skills"

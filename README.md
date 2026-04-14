@@ -22,7 +22,7 @@ You need these before running the installer:
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-starter-pack.git
+git clone https://github.com/jincinga24-hue/claude-starter-pack.git
 cd claude-starter-pack
 ./install.sh
 ```
