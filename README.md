@@ -96,7 +96,6 @@ Pre-configured rules for: git workflow, testing, security checks, coding style, 
 | Tool | Install | What It Does |
 |------|---------|-------------|
 | [opencli](https://github.com/jackwener/opencli) | Auto | Scrape 60+ sites: Twitter, Reddit, arXiv, Bloomberg, 小红书, B站, YouTube, LinkedIn, and more. 487 commands. |
-| [openclaw](https://github.com/openclaw) | Optional | Persistent AI agents — study buddy, gym tracker, personal assistant |
 
 ## The /vibe Pipeline
 
@@ -205,7 +204,7 @@ claude plugin remove claude-hud@claude-hud
 - [gstack](https://github.com/garrytan/gstack) by Garry Tan
 - [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) by nextlevelbuilder
 - [claude-hud](https://github.com/jarrodwatts/claude-hud) by Jarrod Watts
-- [openclaw](https://github.com/openclaw) & [opencli](https://github.com/jackwener/opencli) by their respective authors
+- [opencli](https://github.com/jackwener/opencli) by jackwener
 - /vibe adaptive pipeline by Henry
 
 ## License

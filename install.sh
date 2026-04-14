@@ -48,7 +48,7 @@ command -v git >/dev/null 2>&1 || { fail "git not found"; exit 1; }
 ok "git"
 
 command -v node >/dev/null 2>&1 || warn "node not found — some plugins may need it"
-command -v npm >/dev/null 2>&1 || warn "npm not found — needed for openclaw"
+command -v npm >/dev/null 2>&1 || warn "npm not found — needed for opencli"
 
 mkdir -p "$SKILLS_DIR" "$RULES_DIR"
 
@@ -219,19 +219,6 @@ if command -v npm >/dev/null 2>&1; then
         fi
     fi
 
-    # openclaw — optional (persistent AI agents)
-    if command -v openclaw >/dev/null 2>&1; then
-        ok "openclaw already installed"
-    else
-        echo -e "  ${YELLOW}?${NC} Install openclaw? (persistent AI agents — study buddy, gym tracker, etc.) [y/N] "
-        read -r -n 1 answer </dev/tty 2>/dev/null || answer="n"
-        echo ""
-        if [[ "$answer" =~ ^[Yy]$ ]]; then
-            npm install -g openclaw 2>/dev/null && ok "openclaw installed" || warn "openclaw install failed"
-        else
-            ok "Skipped openclaw"
-        fi
-    fi
 else
     warn "npm not found — skipping CLI tools (install Node.js to get opencli scraping)"
 fi
